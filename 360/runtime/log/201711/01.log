@@ -1,0 +1,773 @@
+[ 2017-11-01T21:21:52+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php
+[ log ] 192.168.20.185/360/public_html/index.php [运行时间：1.047233s][吞吐率：0.95req/s] [内存消耗：1,492.93kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025442s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000119s ]
+
+---------------------------------------------------------------
+[ 2017-11-01T21:21:53+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/login/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/login/index/ [运行时间：1.054418s][吞吐率：0.95req/s] [内存消耗：1,666.54kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.032936s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000131s ]
+
+---------------------------------------------------------------
+[ 2017-11-01T21:21:54+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php
+[ log ] 192.168.20.185/360/public_html/index.php [运行时间：1.028881s][吞吐率：0.97req/s] [内存消耗：1,492.34kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.009827s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000126s ]
+
+---------------------------------------------------------------
+[ 2017-11-01T21:21:56+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php
+[ log ] 192.168.20.185/360/public_html/index.php [运行时间：1.054432s][吞吐率：0.95req/s] [内存消耗：1,492.34kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.035748s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000119s ]
+
+---------------------------------------------------------------
+[ 2017-11-01T21:21:57+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/login/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/login/index/ [运行时间：1.041752s][吞吐率：0.96req/s] [内存消耗：1,666.54kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.020449s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+
+---------------------------------------------------------------
+[ 2017-11-01T21:22:01+08:00 ] 192.168.20.185 192.168.168.160 POST /360/public_html/index.php/member/login/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/login/index/ [运行时间：1.064081s][吞吐率：0.94req/s] [内存消耗：2,262.83kb] [文件加载：67]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016304s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003132s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] UPDATE `member`  SET `lasttime`=1509542521  WHERE  `uid` = 1 [ RunTime:0.015851s ]
+
+---------------------------------------------------------------
+[ 2017-11-01T21:22:02+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.050813s][吞吐率：0.95req/s] [内存消耗：2,337.48kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.018092s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002924s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000273s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:22:07+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index/ [运行时间：1.039744s][吞吐率：0.96req/s] [内存消耗：2,337.48kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.007299s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002877s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000335s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:22:22+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.055642s][吞吐率：0.95req/s] [内存消耗：2,337.48kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023809s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002888s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000290s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:22:24+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.050797s][吞吐率：0.95req/s] [内存消耗：2,337.48kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017138s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002863s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000418s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:22:24+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.051195s][吞吐率：0.95req/s] [内存消耗：2,337.38kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014672s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003114s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000277s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:22:25+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.067455s][吞吐率：0.94req/s] [内存消耗：2,337.38kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030207s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003395s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000321s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:22:26+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.048641s][吞吐率：0.95req/s] [内存消耗：2,337.48kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017081s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002840s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000294s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:22:26+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.028980s][吞吐率：0.97req/s] [内存消耗：2,337.48kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.997576s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002875s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000286s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:28:20+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.056579s][吞吐率：0.95req/s] [内存消耗：2,500.60kb] [文件加载：76]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015880s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002960s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000285s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:28:31+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.066827s][吞吐率：0.94req/s] [内存消耗：2,500.61kb] [文件加载：76]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.032321s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002978s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000277s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:34:44+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.063988s][吞吐率：0.94req/s] [内存消耗：2,337.48kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027933s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003245s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000291s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:37:04+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.065474s][吞吐率：0.94req/s] [内存消耗：2,500.73kb] [文件加载：76]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024684s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002913s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000273s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:38:04+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.053961s][吞吐率：0.95req/s] [内存消耗：2,500.28kb] [文件加载：76]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.011748s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003079s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000295s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:38:13+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.041646s][吞吐率：0.96req/s] [内存消耗：2,336.90kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.009920s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002796s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000275s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:38:24+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.052970s][吞吐率：0.95req/s] [内存消耗：2,336.77kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.020653s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002914s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000311s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:38:33+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.051432s][吞吐率：0.95req/s] [内存消耗：2,335.07kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.019426s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002814s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000302s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:38:40+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.061499s][吞吐率：0.94req/s] [内存消耗：2,335.02kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.029515s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002877s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000319s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:38:53+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.032293s][吞吐率：0.97req/s] [内存消耗：2,337.47kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.999969s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002874s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000303s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:39:11+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.070666s][吞吐率：0.93req/s] [内存消耗：2,500.89kb] [文件加载：76]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.034643s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003664s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000307s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:39:22+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.065562s][吞吐率：0.94req/s] [内存消耗：2,500.61kb] [文件加载：76]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.031140s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002972s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000280s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:47:20+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.063960s][吞吐率：0.94req/s] [内存消耗：2,337.38kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.027569s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000290s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:47:24+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.048578s][吞吐率：0.95req/s] [内存消耗：2,337.47kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017368s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002800s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000370s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:47:30+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.058464s][吞吐率：0.94req/s] [内存消耗：2,337.47kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.026825s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002809s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000355s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:50:45+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.054616s][吞吐率：0.95req/s] [内存消耗：2,337.47kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.019310s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003270s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000282s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:53:05+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.056311s][吞吐率：0.95req/s] [内存消耗：2,500.66kb] [文件加载：76]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016375s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002927s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000286s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-11-01T21:53:11+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.047424s][吞吐率：0.95req/s] [内存消耗：2,500.61kb] [文件加载：76]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012827s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002854s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000271s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------

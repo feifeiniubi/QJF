@@ -1,0 +1,56 @@
+[ 2017-09-25T11:14:04+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/index/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/index/index/ [运行时间：0.064220s][吞吐率：15.57req/s] [内存消耗：2,802.58kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000853s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003718s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.001013s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-09-25T11:14:06+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/index/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/index/index/ [运行时间：0.027271s][吞吐率：36.67req/s] [内存消耗：2,802.00kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000284s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003457s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000419s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------

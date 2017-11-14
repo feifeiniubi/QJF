@@ -1,0 +1,14 @@
+[ 2017-10-25T20:28:58+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php
+[ log ] 192.168.20.185/360/public_html/index.php [运行时间：1.054017s][吞吐率：0.95req/s] [内存消耗：1,492.94kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.032650s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000112s ]
+
+---------------------------------------------------------------
+[ 2017-10-25T20:28:59+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/login/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/login/index/ [运行时间：1.055088s][吞吐率：0.95req/s] [内存消耗：1,666.60kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.031796s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000119s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,1480 @@
+[ 2017-10-30T19:04:53+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php
+[ log ] 192.168.20.185/360/public_html/index.php [运行时间：1.046365s][吞吐率：0.96req/s] [内存消耗：1,492.80kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024735s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+
+---------------------------------------------------------------
+[ 2017-10-30T19:04:54+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/login/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/login/index/ [运行时间：1.054771s][吞吐率：0.95req/s] [内存消耗：1,666.56kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.031239s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000116s ]
+
+---------------------------------------------------------------
+[ 2017-10-30T19:04:57+08:00 ] 192.168.20.185 192.168.168.160 POST /360/public_html/index.php/member/login/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/login/index/ [运行时间：1.084067s][吞吐率：0.92req/s] [内存消耗：2,262.63kb] [文件加载：67]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015055s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002979s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] UPDATE `member`  SET `lasttime`=1509361497  WHERE  `uid` = 1 [ RunTime:0.029271s ]
+
+---------------------------------------------------------------
+[ 2017-10-30T19:04:58+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.051329s][吞吐率：0.95req/s] [内存消耗：2,337.07kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014496s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003076s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000318s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:05:01+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index/ [运行时间：1.065219s][吞吐率：0.94req/s] [内存消耗：2,337.07kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.029391s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002752s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000273s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:05:42+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/member/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/member/index [运行时间：1.069657s][吞吐率：0.93req/s] [内存消耗：2,763.69kb] [文件加载：82]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017329s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002821s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002781s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `member` WHERE  (  shop_id='1' ) LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  (  shop_id='1' ) LIMIT 0,20 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 11 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 15 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 12 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 13 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 14 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 15 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 15 LIMIT 1 [ RunTime:0.000161s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义数组下标: 0
+
+---------------------------------------------------------------
+[ 2017-10-30T19:05:49+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/member/role
+[ log ] 192.168.20.185/360/public_html/index.php/member/member/role [运行时间：1.065668s][吞吐率：0.94req/s] [内存消耗：2,672.44kb] [文件加载：82]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023461s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002844s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `role` WHERE  `role`.`shop_id` = 1  AND `type` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`shop_id` = 1  AND `type` = 1 ORDER BY type desc LIMIT 0,20 [ RunTime:0.000257s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:05:52+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/shop/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/shop/index [运行时间：1.053428s][吞吐率：0.95req/s] [内存消耗：2,375.46kb] [文件加载：73]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014276s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002859s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002733s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000209s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:05:53+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/shop/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/shop/index [运行时间：1.070028s][吞吐率：0.93req/s] [内存消耗：2,375.46kb] [文件加载：73]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030664s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002842s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002750s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000209s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:06:01+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index/ [运行时间：1.058374s][吞吐率：0.94req/s] [内存消耗：2,337.07kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.022640s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002842s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000338s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:06:07+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/login/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/login/index/ [运行时间：1.057827s][吞吐率：0.95req/s] [内存消耗：1,667.06kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.034252s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000105s ]
+
+---------------------------------------------------------------
+[ 2017-10-30T19:06:11+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/member/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/member/index [运行时间：1.064425s][吞吐率：0.94req/s] [内存消耗：2,591.03kb] [文件加载：78]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017717s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002854s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002640s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `member` WHERE  (  shop_id='1' ) LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  (  shop_id='1' ) LIMIT 0,20 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 11 LIMIT 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 15 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 12 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 13 LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 14 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 15 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 15 LIMIT 1 [ RunTime:0.000161s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义数组下标: 0
+
+---------------------------------------------------------------
+[ 2017-10-30T19:06:13+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php
+[ log ] 192.168.20.185/360/public_html/index.php [运行时间：1.031887s][吞吐率：0.97req/s] [内存消耗：1,492.29kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.011009s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000105s ]
+
+---------------------------------------------------------------
+[ 2017-10-30T19:06:14+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/login/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/login/index/ [运行时间：1.057941s][吞吐率：0.95req/s] [内存消耗：1,666.53kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.034473s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000109s ]
+
+---------------------------------------------------------------
+[ 2017-10-30T19:06:17+08:00 ] 192.168.20.185 192.168.168.160 POST /360/public_html/index.php/member/login/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/login/index/ [运行时间：1.074398s][吞吐率：0.93req/s] [内存消耗：2,262.73kb] [文件加载：67]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.028826s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002997s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] UPDATE `member`  SET `lasttime`=1509361577  WHERE  `uid` = 1 [ RunTime:0.011775s ]
+
+---------------------------------------------------------------
+[ 2017-10-30T19:06:18+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.039158s][吞吐率：0.96req/s] [内存消耗：2,337.09kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003920s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002931s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000296s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:06:21+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/sales/add
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/add [运行时间：1.077332s][吞吐率：0.93req/s] [内存消耗：2,482.39kb] [文件加载：75]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.024728s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002816s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002871s ]
+[ sql ] [ SQL ] SELECT `id`,`company` FROM `customer` WHERE  `customer`.`shop_id` = 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002638s ]
+[ sql ] [ SQL ] SELECT `uid`,`realname` FROM `member` WHERE  `shop_id` = 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.002741s ]
+[ sql ] [ SQL ] SELECT DISTINCT  * FROM `stock_product` WHERE  `shop_id` = 1  AND (  status <> '3' ) GROUP BY fid ORDER BY fid asc [ RunTime:0.001585s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1  AND `fid` = 2 ORDER BY listorder desc,id asc [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.002704s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000192s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: list
+
+---------------------------------------------------------------
+[ 2017-10-30T19:06:35+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/sales/add
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/add [运行时间：1.166736s][吞吐率：0.86req/s] [内存消耗：2,482.41kb] [文件加载：75]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.019825s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.097110s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002705s ]
+[ sql ] [ SQL ] SELECT `id`,`company` FROM `customer` WHERE  `customer`.`shop_id` = 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002652s ]
+[ sql ] [ SQL ] SELECT `uid`,`realname` FROM `member` WHERE  `shop_id` = 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.002635s ]
+[ sql ] [ SQL ] SELECT DISTINCT  * FROM `stock_product` WHERE  `shop_id` = 1  AND (  status <> '3' ) GROUP BY fid ORDER BY fid asc [ RunTime:0.001652s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1  AND `fid` = 2 ORDER BY listorder desc,id asc [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.002579s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000191s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: list
+
+---------------------------------------------------------------
+[ 2017-10-30T19:06:44+08:00 ] 192.168.20.185 192.168.168.160 POST /360/public_html/index.php/member/sales/get_product
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/get_product [运行时间：1.048090s][吞吐率：0.95req/s] [内存消耗：2,239.41kb] [文件加载：66]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015202s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.002941s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1  AND `id` = 6 LIMIT 1 [ RunTime:0.000354s ]
+
+---------------------------------------------------------------
+[ 2017-10-30T19:06:47+08:00 ] 192.168.20.185 192.168.168.160 POST /360/public_html/index.php/member/sales/get_product
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/get_product [运行时间：1.037329s][吞吐率：0.96req/s] [内存消耗：2,239.39kb] [文件加载：66]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003700s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.002987s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1  AND `id` = 7 LIMIT 1 [ RunTime:0.000419s ]
+
+---------------------------------------------------------------
+[ 2017-10-30T19:06:56+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/sales/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/index [运行时间：1.080200s][吞吐率：0.93req/s] [内存消耗：2,539.22kb] [文件加载：79]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.028481s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002869s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.002793s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002720s ]
+[ sql ] [ SQL ] SELECT * FROM `customer` WHERE  `customer`.`shop_id` = 1  AND `id` = 1 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002847s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 2 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `customer` WHERE  `customer`.`shop_id` = 1  AND `id` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 3 LIMIT 1 [ RunTime:0.000177s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:17:03+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/sales/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/index [运行时间：1.054047s][吞吐率：0.95req/s] [内存消耗：2,539.22kb] [文件加载：79]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.999868s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002821s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.002743s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002662s ]
+[ sql ] [ SQL ] SELECT * FROM `customer` WHERE  `customer`.`shop_id` = 1  AND `id` = 1 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002749s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 2 LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `customer` WHERE  `customer`.`shop_id` = 1  AND `id` = 1 LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 3 LIMIT 1 [ RunTime:0.000174s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:17:09+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/sales/show?id=2
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/show?id=2 [运行时间：1.059826s][吞吐率：0.94req/s] [内存消耗：2,480.46kb] [文件加载：74]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012703s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002816s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders_data` [ RunTime:0.002794s ]
+[ sql ] [ SQL ] SELECT * FROM `orders_data` WHERE  `shop_id` = 1  AND (  orderid = 2 ) ORDER BY id asc [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.002681s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1  AND `id` = 7 LIMIT 1 [ RunTime:0.000252s ]
+
+---------------------------------------------------------------
+[ 2017-10-30T19:29:17+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/member/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/member/index [运行时间：1.062516s][吞吐率：0.94req/s] [内存消耗：2,591.03kb] [文件加载：78]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.007840s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002873s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002699s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `member` WHERE  (  shop_id='1' ) LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  (  shop_id='1' ) LIMIT 0,20 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 11 LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 15 LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 12 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 13 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 14 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 15 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 15 LIMIT 1 [ RunTime:0.000191s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义数组下标: 0
+
+---------------------------------------------------------------
+[ 2017-10-30T19:31:21+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/shop/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/shop/index [运行时间：1.081641s][吞吐率：0.92req/s] [内存消耗：2,375.46kb] [文件加载：73]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.036853s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002870s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002599s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:33:25+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index/ [运行时间：1.039560s][吞吐率：0.96req/s] [内存消耗：2,337.46kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.998507s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002865s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000280s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:35:53+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index/ [运行时间：1.071219s][吞吐率：0.93req/s] [内存消耗：2,337.46kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.029839s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003081s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000272s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:35:55+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/index/index/
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index/ [运行时间：1.061249s][吞吐率：0.94req/s] [内存消耗：2,337.46kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.019536s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.003747s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000331s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:38:43+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/product
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/product [运行时间：1.079477s][吞吐率：0.93req/s] [内存消耗：2,579.92kb] [文件加载：79]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.028174s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002832s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.002726s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_product` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.002672s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000166s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:38:54+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/product
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/product [运行时间：1.056623s][吞吐率：0.95req/s] [内存消耗：2,579.92kb] [文件加载：79]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006449s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002811s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.002792s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_product` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.002628s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000162s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:39:10+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/setting
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/setting [运行时间：1.062645s][吞吐率：0.94req/s] [内存消耗：2,445.77kb] [文件加载：73]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.019991s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002829s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.002555s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `type` = 1 ORDER BY id desc [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `type` = 2  AND `pid` = 0 ORDER BY listorder desc,id desc [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 6 ORDER BY listorder desc [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 5 ORDER BY listorder desc [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 4 ORDER BY listorder desc [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 3 ORDER BY listorder desc [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 2 ORDER BY listorder desc [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 1 ORDER BY listorder desc [ RunTime:0.000187s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:39:52+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/setting
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/setting [运行时间：1.048246s][吞吐率：0.95req/s] [内存消耗：2,445.77kb] [文件加载：73]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003528s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002898s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.002919s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `type` = 1 ORDER BY id desc [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `type` = 2  AND `pid` = 0 ORDER BY listorder desc,id desc [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 6 ORDER BY listorder desc [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 5 ORDER BY listorder desc [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 4 ORDER BY listorder desc [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 3 ORDER BY listorder desc [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 2 ORDER BY listorder desc [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 1 ORDER BY listorder desc [ RunTime:0.000186s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:40:59+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/product
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/product [运行时间：1.077140s][吞吐率：0.93req/s] [内存消耗：2,579.92kb] [文件加载：79]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.026934s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002814s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.002639s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_product` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.002606s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000162s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:50:22+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/product
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/product [运行时间：1.081224s][吞吐率：0.92req/s] [内存消耗：2,579.92kb] [文件加载：79]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.021792s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002887s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.003602s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_product` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.003492s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000165s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:50:37+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/sales/add
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/add [运行时间：1.064300s][吞吐率：0.94req/s] [内存消耗：2,482.78kb] [文件加载：75]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004448s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002813s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.003809s ]
+[ sql ] [ SQL ] SELECT `id`,`company` FROM `customer` WHERE  `customer`.`shop_id` = 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003503s ]
+[ sql ] [ SQL ] SELECT `uid`,`realname` FROM `member` WHERE  `shop_id` = 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.003375s ]
+[ sql ] [ SQL ] SELECT DISTINCT  * FROM `stock_product` WHERE  `shop_id` = 1  AND (  status <> '3' ) GROUP BY fid ORDER BY fid asc [ RunTime:0.001615s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1  AND `fid` = 2 ORDER BY listorder desc,id asc [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.002599s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000190s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: list
+
+---------------------------------------------------------------
+[ 2017-10-30T19:50:44+08:00 ] 192.168.20.185 192.168.168.160 POST /360/public_html/index.php/member/sales/get_product
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/get_product [运行时间：1.058440s][吞吐率：0.94req/s] [内存消耗：2,239.71kb] [文件加载：66]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025000s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.002881s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000351s ]
+
+---------------------------------------------------------------
+[ 2017-10-30T19:50:55+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/product
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/product [运行时间：1.073824s][吞吐率：0.93req/s] [内存消耗：2,579.92kb] [文件加载：79]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.020627s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002792s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.003692s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_product` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.003397s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000168s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:51:02+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/sales/add
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/add [运行时间：1.089070s][吞吐率：0.92req/s] [内存消耗：2,482.78kb] [文件加载：75]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.019689s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002793s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002655s ]
+[ sql ] [ SQL ] SELECT `id`,`company` FROM `customer` WHERE  `customer`.`shop_id` = 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002605s ]
+[ sql ] [ SQL ] SELECT `uid`,`realname` FROM `member` WHERE  `shop_id` = 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.002608s ]
+[ sql ] [ SQL ] SELECT DISTINCT  * FROM `stock_product` WHERE  `shop_id` = 1  AND (  status <> '3' ) GROUP BY fid ORDER BY fid asc [ RunTime:0.001557s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1  AND `fid` = 2 ORDER BY listorder desc,id asc [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.023657s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000225s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: list
+
+---------------------------------------------------------------
+[ 2017-10-30T19:52:57+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/setting
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/setting [运行时间：1.063032s][吞吐率：0.94req/s] [内存消耗：2,445.77kb] [文件加载：73]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.020349s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002821s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.002677s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `type` = 1 ORDER BY id desc [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `type` = 2  AND `pid` = 0 ORDER BY listorder desc,id desc [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 6 ORDER BY listorder desc [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 5 ORDER BY listorder desc [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 4 ORDER BY listorder desc [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 3 ORDER BY listorder desc [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 2 ORDER BY listorder desc [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 1 ORDER BY listorder desc [ RunTime:0.000186s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:53:14+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/product
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/product [运行时间：1.045673s][吞吐率：0.96req/s] [内存消耗：2,579.92kb] [文件加载：79]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.999242s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002836s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.002633s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_product` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.002570s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000188s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:53:21+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/add_product
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/add_product [运行时间：1.073611s][吞吐率：0.93req/s] [内存消耗：2,515.54kb] [文件加载：76]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030221s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002865s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.002597s ]
+[ sql ] [ SQL ] SELECT `id`,`cname` FROM `stock_set` WHERE  `shop_id` = 1  AND `type` = 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `type` = 2  AND `pid` = 0 ORDER BY listorder desc,id asc [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 6 ORDER BY listorder desc,id asc [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 5 ORDER BY listorder desc,id asc [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 4 ORDER BY listorder desc,id asc [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 3 ORDER BY listorder desc,id asc [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 2 ORDER BY listorder desc,id asc [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 1 ORDER BY listorder desc,id asc [ RunTime:0.000189s ]
+[ error ] [8]未定义变量: cid
+[ error ] [8]未定义变量: cid
+[ error ] [8]未定义变量: cid
+[ error ] [8]未定义变量: cid
+[ error ] [8]未定义变量: cid
+[ error ] [8]未定义变量: cid
+[ error ] [8]未定义变量: list
+
+---------------------------------------------------------------
+[ 2017-10-30T19:53:36+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/add_product
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/add_product [运行时间：1.057596s][吞吐率：0.95req/s] [内存消耗：2,354.96kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.019907s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002795s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.002603s ]
+[ sql ] [ SQL ] SELECT `id`,`cname` FROM `stock_set` WHERE  `shop_id` = 1  AND `type` = 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `type` = 2  AND `pid` = 0 ORDER BY listorder desc,id asc [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 6 ORDER BY listorder desc,id asc [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 5 ORDER BY listorder desc,id asc [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 4 ORDER BY listorder desc,id asc [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 3 ORDER BY listorder desc,id asc [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 2 ORDER BY listorder desc,id asc [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `pid` = 1 ORDER BY listorder desc,id asc [ RunTime:0.000189s ]
+[ error ] [8]未定义变量: cid
+[ error ] [8]未定义变量: cid
+[ error ] [8]未定义变量: cid
+[ error ] [8]未定义变量: cid
+[ error ] [8]未定义变量: cid
+[ error ] [8]未定义变量: cid
+[ error ] [8]未定义变量: list
+
+---------------------------------------------------------------
+[ 2017-10-30T19:54:10+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/inventory
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/inventory [运行时间：1.084615s][吞吐率：0.92req/s] [内存消耗：2,681.73kb] [文件加载：82]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.040861s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002883s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_inventory` [ RunTime:0.002628s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_inventory` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_inventory` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002640s ]
+[ sql ] [ SQL ] SELECT `uid`,`realname` FROM `member` [ RunTime:0.000142s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:54:18+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/sales/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/index [运行时间：1.070080s][吞吐率：0.93req/s] [内存消耗：2,539.57kb] [文件加载：79]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023279s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002826s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.002706s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002674s ]
+[ sql ] [ SQL ] SELECT * FROM `customer` WHERE  `customer`.`shop_id` = 1  AND `id` = 1 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002725s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 2 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `customer` WHERE  `customer`.`shop_id` = 1  AND `id` = 1 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 3 LIMIT 1 [ RunTime:0.000176s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:54:20+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/sales/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/index [运行时间：1.078769s][吞吐率：0.93req/s] [内存消耗：2,539.57kb] [文件加载：79]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.031188s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002842s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.002604s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002667s ]
+[ sql ] [ SQL ] SELECT * FROM `customer` WHERE  `customer`.`shop_id` = 1  AND `id` = 1 LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002613s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 2 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `customer` WHERE  `customer`.`shop_id` = 1  AND `id` = 1 LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 3 LIMIT 1 [ RunTime:0.000174s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:54:52+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/sales/add
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/add [运行时间：1.071395s][吞吐率：0.93req/s] [内存消耗：2,482.78kb] [文件加载：75]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.021979s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002823s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002685s ]
+[ sql ] [ SQL ] SELECT `id`,`company` FROM `customer` WHERE  `customer`.`shop_id` = 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002664s ]
+[ sql ] [ SQL ] SELECT `uid`,`realname` FROM `member` WHERE  `shop_id` = 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.002618s ]
+[ sql ] [ SQL ] SELECT DISTINCT  * FROM `stock_product` WHERE  `shop_id` = 1  AND (  status <> '3' ) GROUP BY fid ORDER BY fid asc [ RunTime:0.001551s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1  AND `fid` = 2 ORDER BY listorder desc,id asc [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.003664s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000215s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: list
+
+---------------------------------------------------------------
+[ 2017-10-30T19:54:56+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/sales/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/index [运行时间：1.077503s][吞吐率：0.93req/s] [内存消耗：2,539.57kb] [文件加载：79]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030365s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002797s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `orders` [ RunTime:0.002632s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `orders` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT * FROM `orders` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002674s ]
+[ sql ] [ SQL ] SELECT * FROM `customer` WHERE  `customer`.`shop_id` = 1  AND `id` = 1 LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002703s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 2 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `customer` WHERE  `customer`.`shop_id` = 1  AND `id` = 1 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 3 LIMIT 1 [ RunTime:0.000172s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:54:57+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/inventory
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/inventory [运行时间：1.058197s][吞吐率：0.95req/s] [内存消耗：2,513.75kb] [文件加载：78]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.017451s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002812s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_inventory` [ RunTime:0.002660s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_inventory` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_inventory` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002644s ]
+[ sql ] [ SQL ] SELECT `uid`,`realname` FROM `member` [ RunTime:0.000141s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-10-30T19:55:01+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/sales/add
+[ log ] 192.168.20.185/360/public_html/index.php/member/sales/add [运行时间：1.074789s][吞吐率：0.93req/s] [内存消耗：2,482.78kb] [文件加载：75]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.023578s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002848s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002716s ]
+[ sql ] [ SQL ] SELECT `id`,`company` FROM `customer` WHERE  `customer`.`shop_id` = 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002755s ]
+[ sql ] [ SQL ] SELECT `uid`,`realname` FROM `member` WHERE  `shop_id` = 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_product` [ RunTime:0.002616s ]
+[ sql ] [ SQL ] SELECT DISTINCT  * FROM `stock_product` WHERE  `shop_id` = 1  AND (  status <> '3' ) GROUP BY fid ORDER BY fid asc [ RunTime:0.001567s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_product` WHERE  `shop_id` = 1  AND `fid` = 2 ORDER BY listorder desc,id asc [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_set` [ RunTime:0.002637s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_set` WHERE  `shop_id` = 1  AND `id` = 2 LIMIT 1 [ RunTime:0.000189s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: list
+
+---------------------------------------------------------------
+[ 2017-10-30T19:55:07+08:00 ] 192.168.20.185 192.168.168.160 GET /360/public_html/index.php/member/stock/inventory
+[ log ] 192.168.20.185/360/public_html/index.php/member/stock/inventory [运行时间：1.072057s][吞吐率：0.93req/s] [内存消耗：2,513.75kb] [文件加载：78]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.031525s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002831s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `stock_inventory` [ RunTime:0.002583s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `stock_inventory` WHERE  `shop_id` = 1 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT * FROM `stock_inventory` WHERE  `shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002658s ]
+[ sql ] [ SQL ] SELECT `uid`,`realname` FROM `member` [ RunTime:0.000142s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------

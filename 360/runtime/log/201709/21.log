@@ -1,0 +1,136 @@
+[ 2017-09-21T09:26:32+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php
+[ log ] 127.0.0.1/360/public_html/index.php [运行时间：0.041328s][吞吐率：24.20req/s] [内存消耗：1,835.56kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000432s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000934s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:26:32+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.021264s][吞吐率：47.03req/s] [内存消耗：2,018.42kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000229s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000102s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:33:43+08:00 ] 127.0.0.1 127.0.0.1 POST /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.045718s][吞吐率：21.87req/s] [内存消耗：2,698.75kb] [文件加载：67]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000212s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002788s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.004813s ]
+[ sql ] [ SQL ] UPDATE `member`  SET `lasttime`=1505957623  WHERE  `uid` = 1 [ RunTime:0.007129s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:33:43+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/index/index
+[ log ] 127.0.0.1/360/public_html/index.php/member/index/index [运行时间：0.034307s][吞吐率：29.15req/s] [内存消耗：2,801.39kb] [文件加载：72]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000343s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002164s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.001418s ]
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-09-21T09:35:29+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/
+[ log ] 127.0.0.1/360/public_html/index.php/ [运行时间：0.014531s][吞吐率：68.82req/s] [内存消耗：1,835.16kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000223s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000100s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:35:29+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.019233s][吞吐率：51.99req/s] [内存消耗：2,018.50kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000293s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000135s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:35:32+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/
+[ log ] 127.0.0.1/360/public_html/index.php/ [运行时间：0.016451s][吞吐率：60.79req/s] [内存消耗：1,835.16kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000273s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000127s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:35:32+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.016992s][吞吐率：58.85req/s] [内存消耗：2,018.50kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000228s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000102s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:35:33+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/
+[ log ] 127.0.0.1/360/public_html/index.php/ [运行时间：0.017662s][吞吐率：56.62req/s] [内存消耗：1,835.16kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000296s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000149s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:35:33+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.018209s][吞吐率：54.92req/s] [内存消耗：2,018.50kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000309s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000139s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:35:36+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/
+[ log ] 127.0.0.1/360/public_html/index.php/ [运行时间：0.015269s][吞吐率：65.49req/s] [内存消耗：1,835.16kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000248s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000111s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:35:36+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.015933s][吞吐率：62.76req/s] [内存消耗：2,018.50kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000223s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000112s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:35:38+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/
+[ log ] 127.0.0.1/360/public_html/index.php/ [运行时间：0.013984s][吞吐率：71.51req/s] [内存消耗：1,835.16kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000232s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000102s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:35:38+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.015853s][吞吐率：63.08req/s] [内存消耗：2,018.50kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000229s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000106s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:35:41+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.017669s][吞吐率：56.60req/s] [内存消耗：2,018.50kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000275s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000166s ]
+
+---------------------------------------------------------------
+[ 2017-09-21T09:35:43+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.016510s][吞吐率：60.57req/s] [内存消耗：2,018.50kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000219s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000104s ]
+
+---------------------------------------------------------------

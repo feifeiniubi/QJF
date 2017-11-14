@@ -1,0 +1,6 @@
+1.导入demo_360.sql
+2.修改数据库配置信息  application\database.php
+3.域名指向  public_html
+
+账号 admin  密码 admin
+

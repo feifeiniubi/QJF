@@ -1,0 +1,166 @@
+/* 修改了默认 */
+html,body{
+    height: 100%;
+}
+.breadcrumb{
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+.table{
+    margin-bottom: 0;
+}
+.help-block{
+    margin-bottom: 0;
+}
+.panel {
+    margin-bottom: 0;
+}
+.tab-pane{
+    padding-top: 10px;
+}
+.form-inline.form-condensed .form-group {
+    margin-bottom: 0;
+}
+@media (max-width: 767px) {
+    .table-responsive{
+        margin-bottom: 0;
+        border: 0;
+    }
+    .form-inline .form-group{
+        margin-bottom: 5px;
+    }
+}
+.navbar-brand{
+    height: auto;
+}
+/* zui 之外 */
+.layui-layer-content>form{
+    margin: 10px 0 10px 10px;
+}
+.select2-container .select2-selection--single {
+    height: 32px;
+}
+.select2-container--default .select2-selection--single {
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 32px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 30px;
+}
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    line-height: 28px;
+}
+.select2-dropdown{
+    z-index: 99999999;
+}
+
+/* 自定义 */
+.tr{
+    text-align: right;
+}
+.tc{
+    text-align: center;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.myBrand{
+    float: left;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.myTop{
+    /*margin-top: 18px;*/
+}
+.myTop a{
+    color:#ffffff;
+}
+.myTop>li>a>i{
+    /*background: red;*/
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+.myHead{
+    /*padding: 0;*/
+    margin-bottom: 0;
+}
+.myNav{
+    padding: 0;margin-top:10px;
+}
+.myMain{
+    /*padding: 0;*/
+    padding-top: 10px;
+}
+.myFoot{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+    border-top: solid 1px #ccc;
+    padding: 15px 0 10px;
+}
+.myLogin{
+    margin-top: 150px;
+}
+.mySearch{
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+    .myLoginBg{
+        background: url(../img/login_bg.jpg) no-repeat;
+        background-size: cover;
+    }
+    .myLogin{
+        margin-top: 200px;
+        opacity: .9;
+    }
+
+    .mySearch{
+        margin-top: 0;
+        text-align: right;
+    }
+}
+
+.myMobFoot{
+    height: 48px;
+    border-top: solid 1px #d2d2d2;
+    background-color: #f9f9f9;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.myMobFoot a{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 12px;
+}
+.myMobFoot a.active{
+    color: #1dd116;
+}
+.myMobFoot i{
+    font-size: 20px;
+    display: block;
+    margin-top: 5px;
+}
+.myMobFoot .navbar-toggle{margin: 0px;padding:0px;}
+.myMobFootPlus{
+    background-image: url("__INDEX__/my/mob/foot-plus.png");
+    width: 42px;
+    height: 42px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    top: -21px;
+    margin-left: -21px;
+}
+.bigtitle{font-size: 40px;color:#FFF}

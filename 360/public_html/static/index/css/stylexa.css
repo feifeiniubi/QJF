@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+/* 自己加的 */
+.xa-card{
+	line-height: 1.2;
+	padding-bottom: 50px;
+}
+.xa-card-more{
+	font-size: 13px;
+	font-weight: lighter;
+	float: left;
+	margin-right: 12%;
+}
+.xa-card-more p{
+	font-size: 16px;
+	font-weight: normal;
+}
+.xa-font-white{
+	color: #fff;
+}
+.xa-index-card-green{
+	background-color: #339999;
+}
+.xa-index-card-red{
+	background-color: #cc6666;
+}
+.xa-index-card-bule{
+	background-color: #3399cc;
+}
+.xa-index-card-gray{
+	background-color: #333333;
+}
+.xa-card i{
+	font-size: 80px;
+	font-size: 7.0rem;
+	width: 80px;
+	float: left;
+	text-align: center;
+}
+.xa-card p{
+	font-size: 13px;
+	font-weight: lighter;
+	margin-bottom: 0px;
+}
+.xa-card span{
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	
+}
+.xa-card-box p{
+	color: #333;
+	font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.xa-card-box h5{
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 28px;
+}
+.xa-progress-lg{
+	height: 3.5rem;
+}
+.xa-am-table{
+	margin-bottom: 0;
+}
+.xa-am-table i{
+	font-size: 16px;
+}
+.xa-level-frist{
+	color: rgb(221, 81, 76);
+	font-weight: bold;
+}
+.xa-frist-mane{
+	color: #0e90d2;
+}
+.xa-inbox-item p{
+	font-weight: normal;
+	font-size: 14px;
+}
+.xa-inbox-item p small{
+	font-weight: normal;
+	font-size: 12px;
+	color: #0e90d2;
+}
+/* 改动的 */
+.am-g{
+	padding: 0!important;
+}
+.content{
+	padding: 0!important;
+}
+/*响应式*/
+@media screen and (max-width: 900px){
+	#bar-graph
+	{display: none !important;}
+}

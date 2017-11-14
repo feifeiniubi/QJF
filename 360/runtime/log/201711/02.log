@@ -1,0 +1,7 @@
+[ 2017-11-02T10:04:41+08:00 ] 192.168.20.185 192.168.205.44 GET /360/public_html/index.php/member/index/index
+[ log ] 192.168.20.185/360/public_html/index.php/member/index/index [运行时间：1.040639s][吞吐率：0.96req/s] [内存消耗：1,669.29kb] [文件加载：61]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016703s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000116s ]
+
+---------------------------------------------------------------

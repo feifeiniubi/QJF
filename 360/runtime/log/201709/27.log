@@ -1,0 +1,259 @@
+[ 2017-09-27T21:28:55+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/customer/index
+[ log ] 127.0.0.1/360/public_html/index.php/member/customer/index [运行时间：0.138181s][吞吐率：7.24req/s] [内存消耗：3,053.90kb] [文件加载：79]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013461s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.009295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.016749s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.008541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002693s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.001897s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.002687s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `customer` WHERE  `customer`.`shop_id` = 1 LIMIT 1 [ RunTime:0.003640s ]
+[ sql ] [ SQL ] SELECT * FROM `customer` WHERE  `customer`.`shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT `uid`,`realname` FROM `member` WHERE  `shop_id` = 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `uid`,`realname` FROM `member` WHERE  `shop_id` = 1 [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 7 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 8 LIMIT 1 [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer_track` [ RunTime:0.001865s ]
+[ sql ] [ SQL ] SELECT * FROM `customer_track` WHERE  `shop_id` = 1  AND `cid` = 2 ORDER BY id desc LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 3 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 3 LIMIT 1 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SELECT * FROM `customer_track` WHERE  `shop_id` = 1  AND `cid` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000128s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:01+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php
+[ log ] 127.0.0.1/360/public_html/index.php [运行时间：0.026683s][吞吐率：37.48req/s] [内存消耗：1,833.06kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000528s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000187s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:01+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.021975s][吞吐率：45.51req/s] [内存消耗：2,018.00kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001088s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000179s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:03+08:00 ] 127.0.0.1 127.0.0.1 POST /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.037010s][吞吐率：27.02req/s] [内存消耗：2,649.18kb] [文件加载：66]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000268s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002225s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] UPDATE `member`  SET `lasttime`=1506518943  WHERE  `uid` = 1 [ RunTime:0.008255s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:03+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/admin/index/mapMark
+[ log ] 127.0.0.1/360/public_html/index.php/admin/index/mapMark [运行时间：0.020468s][吞吐率：48.86req/s] [内存消耗：2,067.34kb] [文件加载：62]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000204s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000098s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:03+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/admin/login/index
+[ log ] 127.0.0.1/360/public_html/index.php/admin/login/index [运行时间：0.017806s][吞吐率：56.16req/s] [内存消耗：2,010.95kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000217s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000099s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:20+08:00 ] 127.0.0.1 127.0.0.1 POST /360/public_html/index.php/admin/login/index
+[ log ] 127.0.0.1/360/public_html/index.php/admin/login/index [运行时间：0.036040s][吞吐率：27.75req/s] [内存消耗：2,676.20kb] [文件加载：66]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009610s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `username` = 'admin' LIMIT 1 [ RunTime:0.000387s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:24+08:00 ] 127.0.0.1 127.0.0.1 POST /360/public_html/index.php/admin/login/index
+[ log ] 127.0.0.1/360/public_html/index.php/admin/login/index [运行时间：0.041923s][吞吐率：23.85req/s] [内存消耗：2,676.20kb] [文件加载：66]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000510s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003100s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `user`.`delete_time` IS NULL  AND `username` = 'admin' LIMIT 1 [ RunTime:0.000367s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:38+08:00 ] 127.0.0.1 127.0.0.1 POST /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.037886s][吞吐率：26.40req/s] [内存消耗：2,689.82kb] [文件加载：66]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003204s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000421s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:50+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.022554s][吞吐率：44.34req/s] [内存消耗：2,018.00kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000336s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000164s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:53+08:00 ] 127.0.0.1 127.0.0.1 POST /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.029938s][吞吐率：33.40req/s] [内存消耗：2,649.18kb] [文件加载：66]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000310s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003566s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] UPDATE `member`  SET `lasttime`=1506518993  WHERE  `uid` = 1 [ RunTime:0.001293s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:53+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/admin/index/mapMark
+[ log ] 127.0.0.1/360/public_html/index.php/admin/index/mapMark [运行时间：0.020622s][吞吐率：48.49req/s] [内存消耗：2,067.34kb] [文件加载：62]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000248s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000114s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:53+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/admin/login/index
+[ log ] 127.0.0.1/360/public_html/index.php/admin/login/index [运行时间：0.017382s][吞吐率：57.53req/s] [内存消耗：2,010.95kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000231s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000103s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:59+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/customer/index
+[ log ] 127.0.0.1/360/public_html/index.php/member/customer/index [运行时间：0.057886s][吞吐率：17.28req/s] [内存消耗：3,053.07kb] [文件加载：79]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.002199s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `role`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.002024s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer` [ RunTime:0.001872s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `customer` WHERE  `customer`.`shop_id` = 1 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT * FROM `customer` WHERE  `customer`.`shop_id` = 1 ORDER BY addtime desc LIMIT 0,20 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT `uid`,`realname` FROM `member` WHERE  `shop_id` = 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT `uid`,`realname` FROM `member` WHERE  `shop_id` = 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 7 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 8 LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `customer_track` [ RunTime:0.002284s ]
+[ sql ] [ SQL ] SELECT * FROM `customer_track` WHERE  `shop_id` = 1  AND `cid` = 2 ORDER BY id desc LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 3 LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `uid` = 3 LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `customer_track` WHERE  `shop_id` = 1  AND `cid` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000215s ]
+[ error ] [8]未定义变量: where
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+[ error ] [8]未定义变量: taocan_data
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:59+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/
+[ log ] 127.0.0.1/360/public_html/index.php/ [运行时间：0.022129s][吞吐率：45.19req/s] [内存消耗：1,834.66kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000308s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000140s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:29:59+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.018647s][吞吐率：53.63req/s] [内存消耗：2,018.00kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000226s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000115s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:30:30+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php
+[ log ] 127.0.0.1/360/public_html/index.php [运行时间：0.021192s][吞吐率：47.19req/s] [内存消耗：1,833.06kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000243s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:30:30+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.017158s][吞吐率：58.28req/s] [内存消耗：2,018.00kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000224s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000102s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:30:33+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php
+[ log ] 127.0.0.1/360/public_html/index.php [运行时间：0.016269s][吞吐率：61.47req/s] [内存消耗：1,834.58kb] [文件加载：54]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000267s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000107s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:30:33+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.017868s][吞吐率：55.97req/s] [内存消耗：2,018.27kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000290s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000158s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:30:36+08:00 ] 127.0.0.1 127.0.0.1 POST /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.027660s][吞吐率：36.15req/s] [内存消耗：2,649.18kb] [文件加载：66]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000340s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003325s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] UPDATE `member`  SET `lasttime`=1506519036  WHERE  `uid` = 1 [ RunTime:0.000962s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:30:36+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/admin/index/mapMark
+[ log ] 127.0.0.1/360/public_html/index.php/admin/index/mapMark [运行时间：0.018227s][吞吐率：54.86req/s] [内存消耗：2,067.34kb] [文件加载：62]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000263s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000130s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T21:30:36+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/admin/login/index
+[ log ] 127.0.0.1/360/public_html/index.php/admin/login/index [运行时间：0.019453s][吞吐率：51.41req/s] [内存消耗：2,010.95kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000233s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000102s ]
+
+---------------------------------------------------------------
+[ 2017-09-27T22:16:19+08:00 ] 127.0.0.1 127.0.0.1 GET /360/public_html/index.php/member/login/index/
+[ log ] 127.0.0.1/360/public_html/index.php/member/login/index/ [运行时间：0.047643s][吞吐率：20.99req/s] [内存消耗：2,018.27kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:dbname=crm;host=localhost;charset=utf8
+[ sql ] [ SQL ] set sql_mode='' [ RunTime:0.000167s ]
+
+---------------------------------------------------------------
